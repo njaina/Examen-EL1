@@ -1,0 +1,80 @@
+.Header{
+  height: 8vh;
+  background-color: #2C3333;
+  padding-left: 60%;
+  padding-top: 30px;
+}
+
+body{
+margin: 0;
+}
+.Container{
+  width: 40vw;
+  height: 20vh;
+}
+.Modal{
+  margin-left: 30%;
+  margin-top: 10%;
+  position: fixed;
+  border: solid 1px;
+  top: 0;
+  width: 30vw;
+  height: 60vh;
+  padding-left: 5%;
+  background-color: #1B2430;
+}
+.form-control{
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  padding-left: 10px;
+  background-color: darkslategrey;
+  outline: none;
+  border-radius: 15px;
+}
+.modal-header{
+  display: flex;
+  flex-direction: row;
+}
+.modal-title{
+  color: whitesmoke;
+}
+.confirm-button{
+  border: solid 1px;
+  padding: 5px 50px;
+  margin-left:60px ;
+}
+#button{
+  display: none;
+}
+#close{
+  display: none;
+}
+.btn-close{
+  margin-left: 20vw;
+  margin-top: 15px;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  color: whitesmoke;
+  border: solid 1px;
+  border-radius: 50%;
+
+}
+
+.Home{
+  margin-left: 40%;
+  margin-top: 6%;
+}
+body{
+  background-color: black;
+  color: whitesmoke;
+}
+.main-btn{
+  display: none;
+}
+.main-button{
+border: solid 1px;
+padding: 20px 50px;
+margin-right: 30px;
+}
